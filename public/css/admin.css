@@ -1,0 +1,131 @@
+/* admin.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f6fa;
+  margin: 0;
+  padding: 20px;
+}
+
+.admin-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.admin-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #2f3640;
+}
+
+.admin-section {
+  margin-bottom: 50px;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+.admin-section h2 {
+  margin-bottom: 20px;
+  color: #353b48;
+}
+
+.admin-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.admin-form input {
+  flex: 1 1 250px;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.admin-form button {
+  padding: 10px 20px;
+  background-color: #273c75;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.admin-form button:hover {
+  background-color: #40739e;
+}
+
+.admin-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.admin-card {
+  width: 220px;
+  padding: 15px;
+  background-color: #f0f3f5;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.admin-card img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.admin-card h4 {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+  color: #2f3640;
+}
+
+.admin-card p {
+  font-size: 0.95rem;
+  color: #636e72;
+}
+
+/* Contact Form Table */
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.admin-table thead {
+  background-color: #273c75;
+  color: white;
+}
+
+.admin-table th, .admin-table td {
+  padding: 12px 15px;
+  border: 1px solid #dcdde1;
+  text-align: left;
+}
+
+.admin-table tbody tr:nth-child(even) {
+  background-color: #f1f2f6;
+}
+
+/* Subscribed Email List */
+
+.subscriber-list {
+  padding-left: 20px;
+  list-style: disc;
+  font-size: 1rem;
+  color: #2d3436;
+}
+
+.subscriber-list li {
+  margin-bottom: 8px;
+}

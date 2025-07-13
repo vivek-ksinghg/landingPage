@@ -1,0 +1,548 @@
+.navbar-brand{
+    margin-right: 4rem;
+}
+.navbar-collapse{
+    margin-left: 40rem;
+}
+.nav-item{
+    margin-right: 1rem;
+} 
+.btn-danger{
+    background-color:rgb(244, 72, 10) !important;
+}
+
+.home-image {
+  position: relative;
+  display: block;
+  width: 100vw; /* Full screen width */
+  height: 87vh; /* Full screen height */
+  overflow: hidden;
+}
+
+.home-image img {
+ width: 100vw;
+  height: 100vh;
+   object-fit: cover;
+}
+
+
+
+.text-overlay {
+  position: absolute;
+  top: 30%;
+  left: 7%;
+  display: flex;               /* ➤ enables side-by-side layout */
+  flex-wrap: wrap;             /* ➤ wrap on small screens */
+  gap: 60px;                   /* ➤ spacing between text and form */
+  color: white;
+  font-weight: 700;
+  line-height: 1.3;
+  z-index: 2;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  align-items: flex-start;     /* optional: aligns top edges */
+}
+
+.text-overlay h2 {
+  font-size: 4.5rem;
+}
+
+
+.hero-form {
+     position: absolute;
+  top: 2%;
+  left: 200%;
+  
+  background-color: rgba(0, 41, 102, 0.85);
+  padding: 20px;
+  border: 2px solid white;
+  height: 400px;
+  width: 400px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+.hero-form h4 {
+  margin-bottom: 15px;
+  color: #fff;
+  text-align: center;
+}
+
+.hero-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: none;
+  border: 1px solid white;
+  border-radius: 5px;
+   background-color: transparent;
+}
+
+.hero-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff6600;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero-form button:hover {
+  background-color: #e65c00;
+}
+
+@media (max-width: 768px) {
+  .text-overlay {
+    flex-direction: column;
+    gap: 20px;
+    left: 5%;
+    top: 5%;
+  }
+
+  .text-overlay h2 {
+    font-size: 3rem;
+  }
+
+  .hero-form {
+    width: 100%;
+  }
+}
+
+.aveage{
+     width: 100vw; /* Full screen width */
+  height: 100vh;
+  display: flex;
+}
+
+.average-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.text-section {
+  flex: 1;
+  margin-top: 9rem;
+  max-width: 500px;
+}
+
+.text-section h3 {
+  color: #1464df;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.text-section p {
+  font-size: 1.1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.image-section {
+  position: relative;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
+}
+
+.image-section img {
+  border-radius: 50%;
+  object-fit: cover;
+  position: absolute;
+}
+
+.main-img {
+  width: 400px;
+  height: 400px;
+  z-index: 2;
+  margin-top: 10rem;
+}
+
+.top-img {
+  width: 190px;
+  height: 190px;
+  top: -180px;
+  right: -40px;
+}
+
+.bottom-img {
+  width: 190px;
+  height: 190px; 
+  bottom: -300px;
+  right: -40px;
+}
+
+/* why choose  */
+.why-container {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.why-heading h3 {
+  font-size: 2rem;
+  color: #1464df;
+  margin-bottom: 0.5rem;
+}
+
+.underline {
+  width: 60px;
+  height: 4px;
+  background-color: #1464df;
+  margin: 0 auto 2rem;
+  border-radius: 2px;
+}
+
+.why-cards {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 18rem;
+  padding: 2rem;
+  border: none;
+  background-color: #f8f9ff;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center; /* ✅ This ensures all child elements are centered */
+}
+
+.card-icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto 1rem; /* ✅ Center horizontally and add bottom space */
+  display: block;      /* ✅ Ensures margin auto works */
+}
+
+.card h4 {
+  font-size: 1.2rem;
+  color: #1464df;
+  margin-bottom: 1rem;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #333;
+  line-height: 1.5;
+}
+
+.arr-image {
+  margin-top: 2rem;
+  margin-left: 60rem;
+}
+.arr-image img {
+  width: 25px;
+}
+
+.custom-grid-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 2rem;
+  padding: 4rem 2rem;
+  background-color: #fff;
+}
+
+.small-box,
+.large-box {
+  position: relative;
+}
+
+.small-box img,
+.large-box img {
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.small-box img {
+  width: 150px;
+  height: auto;
+
+}
+
+.large-box img {
+  width: 250px;
+  height: auto;
+}
+
+.small-box{
+    bottom: 120px;
+}
+/* Decorative corner SVGs */
+.corner {
+  position: absolute;
+  width: 24px;
+  height: auto;
+}
+
+.corner-orange {
+  bottom: 140px;
+  left: 160px;
+  height: 40px !important;
+  width: 40px !important;
+}
+
+.corner-blue {
+  top: -10px;
+  right: -10px;
+}
+
+/* Background shape under center image */
+.bg-decor {
+  position: absolute;
+  bottom: -20px;
+  left: 10px ;
+  width: 120px;
+  opacity: 0.4;
+  z-index: -1;
+}
+
+/* about section */
+
+/* style.css */
+
+.about-section {
+  padding: 80px 0;
+  background-color: #ffffff;
+}
+
+.section-title {
+  font-weight: 700;
+  color: #0d6efd;
+  margin-bottom: 10px;
+}
+
+.section-divider {
+  width: 80px;
+  height: 3px;
+  background-color: #0d6efd;
+  margin: 0 auto 30px auto;
+  border: none;
+}
+
+.about-text {
+  max-width: 750px;
+  margin: 0 auto 30px auto;
+  font-size: 1.125rem;
+  color: #6c757d;
+  line-height: 1.8;
+}
+
+
+/* project section */
+.card-img-top {
+  height: 180px;
+  object-fit: cover;
+}
+.cards {
+  border: none;
+  border-radius: 12px;
+}
+.btn-warning {
+  background-color: #ff6b00;
+  border: none;
+}
+
+
+/* our client section */
+/* Happy Clients Section */
+.happy-clients {
+  background-color: #f9fbff;
+}
+
+.happy-clients .section-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #007bff; /* Bootstrap primary blue */
+}
+
+/* Client Card */
+.happy-clients .card {
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.happy-clients .card:hover {
+  transform: translateY(-5px);
+}
+
+.happy-clients img {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #007bff;
+}
+
+.happy-clients .card p {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 10px;
+  min-height: 60px;
+}
+
+.happy-clients .card h6 {
+  font-size: 1rem;
+  color: #0d6efd;
+  margin-bottom: 2px;
+}
+
+.happy-clients .card small {
+  font-size: 0.8rem;
+  color: #888;
+}
+
+
+/* learnmore */
+
+.learn-more {
+  position: relative;
+  width: 100%;
+  height: 300px; /* adjust height as needed */
+  overflow: hidden;
+}
+
+.background-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.content-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.content-overlay h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.content-overlay button {
+  padding: 10px 20px;
+  border: none;
+  background-color: white;
+  color: #007bff;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+
+.content-overlay button:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+/* footer */
+.footer {
+  background-color: #1e88ff; /* blue */
+  padding: 30px 50px;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-nav li a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.footer-nav li a:hover {
+  text-decoration: underline;
+}
+
+.subscribe {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.subscribe-box {
+  display: flex;
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.subscribe-box input {
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  width: 200px;
+}
+
+.subscribe-box button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #1e88ff;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.subscribe-box button:hover {
+  background-color: #006edc;
+}
+
+/* footer 2 */
+
+.site-footer {
+  background-color: #1a1a2e;
+  color: #ccc;
+}
+
+.site-footer .text-primary {
+  color: #0d6efd !important; /* Bootstrap primary blue */
+}
+
+.footer-icon {
+  display: inline-block;
+  color: #000;
+  background: #fff;
+  border-radius: 50%;
+  padding: 8px;
+  margin-left: 6px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+.footer-icon:hover {
+  background: #0d6efd;
+  color: #fff;
+}
+
